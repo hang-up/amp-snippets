@@ -23,6 +23,30 @@
     "body": "const ${1:result} = JSON.parse(JSON.stringify(${array}));$0",
     "description": "Deeply clone an array"
   },
+  "Array: Find maximum item of an array": {
+    "prefix": [
+      "&:find maximum item of an array",
+      "&:find-max-array"
+    ],
+    "body": "const ${1:result} = ${array} => Math.max(...${array});$0",
+    "description": "Find the maximum item of an array"
+  },
+  "Array: Find minimum item of an array": {
+    "prefix": [
+      "&:find minimum item of an array",
+      "&:find-min-array"
+    ],
+    "body": "const ${1:result} = ${array} => Math.min(...${array});$0",
+    "description": "Find the minimum item of an array"
+  },
+  "Array: Remove duplicate values in an array": {
+    "prefix": [
+      "&:remove duplicate values in an array",
+      "&:remove-duplicate-array"
+    ],
+    "body": "const ${result} = (${array}) => ${array}.filter((i) => ${array}.indexOf(i) === ${array}.lastIndexOf(i));$0",
+    "description": "Remove duplicate values in an array"
+  },
   "Array: Shallow clone": {
     "prefix": [
       "&:clone an array (shallow)",
@@ -38,5 +62,19 @@
     ],
     "body": "const ${1:result} = ${date} => ${date}.toISOString().slice(0, 10);$0",
     "description": "Convert a date to YYYY-MM-DD format"
+  },
+  "Date: Get tomorrow date": {
+    "prefix": [
+      "&:get tomorrow date"
+    ],
+    "body": "const ${tomorrow} = new Date(new Date().valueOf() + 1000 * 60 * 60 * 24);$0",
+    "description": "Get tomorrow's date"
+  },
+  "Date: Get yesterday date": {
+    "prefix": [
+      "&:get yesterday date"
+    ],
+    "body": "const ${yesterday} = new Date(new Date().valueOf() - 1000 * 60 * 60 * 24);$0",
+    "description": "Get yesterday's date"
   }
 }
