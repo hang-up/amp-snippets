@@ -37,7 +37,7 @@ const save = async (content) => {
 
 /**
  * ENTRY POINT.
- * Bundles all entries from src/, do a bunch of processing & saves them into snippets/snippets.json.
+ * Bundles all entries from src/*, do a bunch of processing & save them into snippets/snippets.json.
  */
 (async () => {
   try {
