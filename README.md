@@ -5,7 +5,7 @@
 
 <h1 align="center">&:amp snippets</h1>
 
-This extension contains familiar utility one-liners (most of the time) for VS Code.
+<p align="center">This extension contains familiar utility one-liners (most of the time) for VS Code.</p> 
 
 ## Motivation
 Catered for a human workflow, you can call each snippet from a comprehensive description of what you are trying to achieve.  
