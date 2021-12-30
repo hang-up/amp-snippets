@@ -1,0 +1,35 @@
+{
+	"env": {
+		"browser": false,
+		"commonjs": true,
+		"es6": true,
+		"node": true,
+		"mocha": true
+	},
+  "extends": [
+    "airbnb-base",
+    "plugin:prettier/recommended"
+  ],
+	"parserOptions": {
+		"ecmaVersion": 2020
+	},
+	"rules": {
+		"semi": [2, "always"],
+		"no-const-assign": "warn",
+		"no-this-before-super": "warn",
+		"no-undef": "warn",
+		"no-unreachable": "warn",
+		"no-unused-vars": "warn",
+    "no-unused-expressions":"error",
+		"constructor-super": "warn",
+		"valid-typeof": "warn"
+	},
+  "overrides": [
+    {
+      "files": "src/**",
+      "rules": {
+        "no-template-curly-in-string": "off"
+      }
+    }
+  ]
+}
