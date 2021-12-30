@@ -1,4 +1,9 @@
-<h2 align="center">&: Amp snippets</h2>
+<p>
+  <img src="./.github/splash.png" alt="&:amp snippets">
+</p>
+
+
+<h1 align="center">&:amp snippets</h1>
 
 This extension contains familiar utility one-liners (most of the time) for VS Code.
 
