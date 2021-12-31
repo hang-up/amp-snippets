@@ -3,6 +3,7 @@
     "displayName": "amp-snippets",
     "description": "This extension contains familiar utility one-liners (most of the time) for VS Code.",
     "version": "0.0.1",
+    "publisher": "hang-up",
     "repository": {
         "url": "https://github.com/hang-up/amp-snippets"
     },
@@ -31,6 +32,7 @@
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-import": "^2.25.3",
         "eslint-plugin-prettier": "^4.0.0",
-        "prettier": "^2.5.1"
+        "prettier": "^2.5.1",
+        "vsce": "^2.5.3"
     }
 }
