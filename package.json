@@ -2,7 +2,7 @@
     "name": "amp-snippets",
     "displayName": "amp-snippets",
     "description": "This extension contains familiar utility one-liners (most of the time) for VS Code.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "hang-up",
     "repository": {
         "url": "https://github.com/hang-up/amp-snippets"
