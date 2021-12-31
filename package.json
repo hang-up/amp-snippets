@@ -2,7 +2,7 @@
     "name": "amplify-snippets",
     "displayName": "amplify-snippets",
     "description": "This extension contains familiar utility one-liners (most of the time) for VS Code.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "hang-up",
     "repository": {
         "url": "https://github.com/hang-up/amp-snippets"
