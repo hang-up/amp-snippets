@@ -1,6 +1,6 @@
 {
-    "name": "amp-snippets",
-    "displayName": "amp-snippets",
+    "name": "amplify-snippets",
+    "displayName": "amplify-snippets",
     "description": "This extension contains familiar utility one-liners (most of the time) for VS Code.",
     "version": "0.1.0",
     "publisher": "hang-up",
